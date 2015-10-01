@@ -6,5 +6,4 @@ Functionally, the ROM should have:
 2.  A Clear that should occur when pressing the Right button.  
 3.  Address lines to address each of the 32 locations using the high 5 slide switches on the board switch 15:11 which are calledA 4:0 in the port list and in the constraint file.
 4.  As the address lines are driven, the address should display in the high 5 LED 15:11, called Ao 4:0 in the port list and the constraint file.
-5.  Also, whatever address is in the input, the low 8 leds should display the value stored in the ROM at the addressed location
-
+5.  Also, whatever address is in the input, the low 8 leds should display the value stored in the ROM at the addressed location.
